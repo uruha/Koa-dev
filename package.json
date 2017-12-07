@@ -1,0 +1,28 @@
+{
+  "name": "koa_dev_app",
+  "version": "0.0.1",
+  "description": "Koa.js v2 test running",
+  "main": "app.js",
+  "scripts": {
+    "start": "BABEL_ENV=server DEBUG=koa-views babel-node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa"
+  ],
+  "author": "kotaro chiba",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chart.js": "^2.7.1",
+    "consolidate": "^0.14.5",
+    "ejs": "^2.5.7",
+    "koa": "^2.4.1",
+    "koa-router": "^7.3.0",
+    "koa-views": "^5.2.1"
+  },
+  "devDependencies": {}
+}
